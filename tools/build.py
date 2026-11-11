@@ -200,12 +200,12 @@ def header(home=True):
       <span class="sr">Menu</span>{icon('list', 'i i--open')}{icon('x', 'i i--close')}
     </button>
   </div>
-  <div class="sheet" id="sheet" data-sheet hidden>
-    <nav aria-label="Mobile">{sheet}</nav>
-    <a class="btn" href="{pre}#book">{icon('whatsapp-logo')}Book on WhatsApp</a>
-    <p class="sheet__meta"><a href="tel:{PHONE_INTL}">{PHONE_LOCAL}</a><span>Cullinan, Gauteng</span></p>
-  </div>
 </header>
+<div class="sheet" id="sheet" data-sheet hidden>
+  <nav aria-label="Mobile">{sheet}</nav>
+  <a class="btn" href="{pre}#book">{icon('whatsapp-logo')}Book on WhatsApp</a>
+  <p class="sheet__meta"><a href="tel:{PHONE_INTL}">{PHONE_LOCAL}</a><span>Cullinan, Gauteng</span></p>
+</div>
 """
 
 
